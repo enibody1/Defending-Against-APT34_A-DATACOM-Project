@@ -64,12 +64,12 @@ APT34's TTPs were analyzed and mapped to the following MITRE ATT&CK techniques:
 
 This project demonstrates the use of industry-standard frameworks and open-source tools to investigate and defend against state-sponsored cyber threats. It serves as a practical example of how OSINT and threat intelligence can be used to enhance an organization’s security strategy.
 
-## 👤 Author
+## 👤 Authors
 
-**Uchendu, Favour Eni**  
+**Uchendu, Favour Eni**  **Oladimeji, Richard**
 Cybersecurity Analyst | OSINT Researcher  
 [LinkedIn Profile - www.linkedin.com/in/favour-uchendu] • [Email Address - uchenduphayvurh@gmail.com] • [GitHub Profile - https://github.com/enibody1]
-
+[LinkedIn Profile - www.linkedin.com/in/Richard-oladimeji] • [Email Address - Tunevert@aol.com] • [GitHub Profile - https://github.com/tunevert-alt]
 ---
 
 > *For educational and informational purposes only. This repository does not contain any proprietary threat intelligence or classified data.*
