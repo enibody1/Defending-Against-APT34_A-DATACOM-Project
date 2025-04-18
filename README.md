@@ -33,13 +33,13 @@ To analyze APT34’s history, motives, and tactics, and to propose practical sec
   - [US-CERT](https://www.us-cert.gov/)
 
 ## 📁 Project Structure
-
-- `Defending-Against-APT34_A-DATACOM-Project`/
-- `Defending-Against-APT34_DATACOM-Project.pptx`   - Final presentation with design and visual enhancements
-- `README.md`                                      - Project overview, methodology, and documentation
-- `DATACOM Cybersecurity Project.pdf`              - The original project brief and requirements (uploaded as reference).
-
-
+```
+Defending-Against-APT34_A-DATACOM-Project/
+│
+├── Defending-Against-APT34_DATACOM-Project.pptx   - Final presentation with design and visual enhancements.
+├── README.md                                      - Project overview, methodology, and documentation.
+└── DATACOM Cybersecurity Project.pdf              - The original project brief and requirements (uploaded as reference).
+```
 
 ## 🛡️ MITRE ATT&CK Mapping
 
