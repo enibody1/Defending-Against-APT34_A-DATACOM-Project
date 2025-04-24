@@ -67,11 +67,17 @@ This project demonstrates the use of industry-standard frameworks and open-sourc
 ## 👤 Authors
 
 **Uchendu, Favour Eni**
+
 Cybersecurity Analyst | OSINT Researcher  
+
 [LinkedIn Profile - www.linkedin.com/in/favour-uchendu] • [Email Address - uchenduphayvurh@gmail.com] • [GitHub Profile - https://github.com/enibody1]
+
 &
+
 **Oladimeji, Richard**
+
 Cybersecurity Analyst | OSINT Researcher 
+
 [LinkedIn Profile - www.linkedin.com/in/Richard-oladimeji] • [Email Address - Tunevert@aol.com] • [GitHub Profile - https://github.com/tunevert-alt]
 ---
 
