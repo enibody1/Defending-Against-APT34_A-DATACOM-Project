@@ -79,6 +79,7 @@ Cybersecurity Analyst | OSINT Researcher
 Cybersecurity Analyst | OSINT Researcher 
 
 [LinkedIn Profile - www.linkedin.com/in/Richard-oladimeji] • [Email Address - Tunevert@aol.com] • [GitHub Profile - https://github.com/tunevert-alt]
+
 ---
 
 > *For educational and informational purposes only. This repository does not contain any proprietary threat intelligence or classified data.*
