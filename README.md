@@ -1,19 +1,28 @@
-# Defending-Against-APT34_A-DATACOM-Project 🛡️
+# APT34 (OilRig) Threat Intelligence & Defense Simulation
 
-This repository contains a cybersecurity research project focused on **Advanced Persistent Threat Group 34 (APT34)**, also known as **OilRig**. Leveraging Open-Source Intelligence (OSINT) tools and the **MITRE ATT&CK Framework**, the goal is to develop an effective defense strategy to help organizations identify and protect against potential threats from this threat actor.
+## 📌 Project Overview
+This project is a threat intelligence and defensive security analysis of APT34 (also known as OilRig), a state-sponsored cyber threat group.
 
-## 🔍 Project Objective
+The project simulates the role of a Security Operations Center (SOC) analyst tasked with analyzing threat actor behavior and recommending defensive strategies to protect organizational infrastructure.
 
-To analyze APT34’s history, motives, and tactics, and to propose practical security measures based on the MITRE ATT&CK Framework. The findings aim to inform and guide a client leadership team on how to improve their organization’s cybersecurity posture.
+## 👨‍💻 Role Simulation
 
-## 📌 Key Research Questions
+In this scenario, I acted as a Cybersecurity Analyst responsible for:
 
-1. What is the history of APT34?
-2. Which nation/state are they associated with?
-3. Do they target specific industries?
-4. What are their motives?
-5. What Tactics, Techniques, and Procedures (TTPs) do they use?
-6. What security measures can organizations implement to defend against APT34?
+- Analyzing threat actor tactics, techniques, and procedures (TTPs)
+- Mapping attacks to the MITRE ATT&CK framework
+- Identifying indicators of compromise (IOCs)
+- Recommending defensive and monitoring strategies
+
+## 🧠 Threat Actor Overview
+
+APT34 (also known as OilRig or Helix Kitten) is a state-sponsored cyber espionage group believed to be linked to Iran.
+
+- Active since: ~2014
+- Primary objective: Intelligence gathering
+- Target sectors: Government, energy, telecommunications, finance
+
+The group is known for spear-phishing campaigns, credential harvesting, and use of custom malware. :contentReference
 
 ## 🧰 Tools & Resources Used
 
@@ -36,29 +45,100 @@ To analyze APT34’s history, motives, and tactics, and to propose practical sec
 ```
 Defending-Against-APT34_A-DATACOM-Project/
 │
-├── Defending-Against-APT34_DATACOM-Project.pptx   - Final presentation with design and visual enhancements.
 ├── README.md                                      - Project overview, methodology, and documentation.
 └── DATACOM Cybersecurity Project.pdf              - The original project brief and requirements (uploaded as reference).
 ```
 
-## 🛡️ MITRE ATT&CK Mapping
+## 🎯 Attack Lifecycle (MITRE ATT&CK Mapping)
 
-APT34's TTPs were analyzed and mapped to the following MITRE ATT&CK techniques:
+APT34 operations can be mapped to key MITRE ATT&CK tactics:
 
-- **Initial Access**: Spearphishing Attachment (T1566.001)
-- **Execution**: Command and Scripting Interpreter (T1059)
-- **Persistence**: Registry Run Keys (T1547.001)
-- **Credential Access**: Credential Dumping (T1003)
-- **Exfiltration**: Exfiltration Over C2 Channel (T1041)
+### 1. Initial Access
+- Spear-phishing emails with malicious attachments
+- Credential harvesting via phishing pages
 
-## ✅ Key Recommendations
+### 2. Execution
+- PowerShell scripts
+- Malicious macros
 
-- Implement regular **patch management**
-- Provide **phishing awareness training** to employees
-- Enforce **multi-factor authentication (MFA)**
-- Deploy **endpoint detection and response (EDR)**
-- Utilize **network segmentation**
-- Maintain an effective **incident response plan**
+### 3. Persistence
+- Scheduled tasks
+- Registry modifications
+
+### 4. Credential Access
+- Credential dumping
+- Abuse of valid accounts (T1078)
+
+### 5. Command & Control (C2)
+- HTTP/DNS communication channels
+
+### 6. Exfiltration
+- Data exfiltration over network protocols
+
+## 🔍 Indicators of Compromise (IOCs)
+
+- Suspicious phishing emails or attachments
+- Unusual PowerShell activity
+- Unknown scheduled tasks
+- Outbound traffic to suspicious domains
+- Unauthorized credential usage
+
+## ⚠️ Risk Assessment
+
+### Potential Impact:
+- Unauthorized access to internal systems
+- Data exfiltration
+- Long-term persistence within network
+- Compromise of sensitive organizational data
+
+### Risk Level:
+- **Likelihood:** High
+- **Impact:** High
+- **Overall Risk:** Severe
+
+APT34 is known for persistent and stealthy operations, often maintaining long-term access to compromised systems.
+
+## 🛡️ Defensive Strategies
+
+To defend against APT34-style attacks:
+
+### 🔐 Prevention
+- Implement Multi-Factor Authentication (MFA)
+- Apply email filtering and phishing protection
+- Regularly patch systems
+
+### 🔍 Detection
+- Monitor logs for abnormal behavior
+- Use SIEM tools for correlation and alerting
+- Detect unusual PowerShell activity
+
+### 🚨 Response
+- Isolate compromised systems
+- Reset credentials
+- Conduct forensic investigation
+
+## 🧪 Simulated Attack Scenario
+
+### Example Attack Flow:
+1. User receives spear-phishing email
+2. Malicious document executes PowerShell script
+3. Attacker establishes persistence
+4. Credentials are harvested
+5. Data is exfiltrated
+
+## 📊 SOC Relevance
+
+This project demonstrates:
+
+- Threat intelligence analysis
+- MITRE ATT&CK mapping
+- Incident detection awareness
+- Risk assessment
+- Defensive strategy development
+
+## 🧠 Key Takeaway
+
+APT34 represents a persistent and evolving cyber threat. Understanding attacker behavior is essential for building effective detection and response strategies in modern security operations.
 
 ## 📈 Outcome
 
@@ -68,7 +148,7 @@ This project demonstrates the use of industry-standard frameworks and open-sourc
 
 **Uchendu, Favour Eni**
 
-Cybersecurity Analyst | OSINT Researcher  
+Cybersecurity Analyst | OSINT Researcher
 
 [LinkedIn Profile - www.linkedin.com/in/favour-uchendu] • [Email Address - uchenduphayvurh@gmail.com] • [GitHub Profile - https://github.com/enibody1]
 
